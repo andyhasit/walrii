@@ -2,13 +2,22 @@
   "name": "walrii",
   "version": "0.0.0",
   "description": "",
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "babel-plugin-walrii",
+      "@babel/plugin-proposal-class-properties"
+    ]
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --clearCache && jest"
   },
   "author": "Andrew Buchan",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "babel-plugin-walrii": "^0.0.0"
   }
 }

@@ -2,9 +2,14 @@
   "name": "babel-plugin-walrii",
   "version": "0.0.0",
   "description": "Babel plugin for walrii",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/preset-env": "^7.22.9",
+    "jsdom": "^22.1.0"
   },
   "author": "Andrew Buchan",
   "license": "ISC"
