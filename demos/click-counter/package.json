@@ -1,0 +1,23 @@
+{
+  "name": "click-counter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "@types/webpack": "^5.28.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6",
+    "walrii": "^0.0.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "build-min": "webpack -p && cd dist && tar -zcvf main.js.gz main.js && ls -lh",
+    "build": "webpack",
+    "serve": "webpack serve",
+    "start": "webpack-dev-server --host 0.0.0.0",
+    "watch": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}

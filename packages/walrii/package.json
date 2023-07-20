@@ -11,9 +11,16 @@
       "@babel/plugin-proposal-class-properties"
     ]
   },
-  "main": "index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "main": "dist/walrii.js",
   "scripts": {
-    "test": "jest --clearCache && jest"
+    "prepublish": "npm run build",
+    "build": "NODE_ENV=production rollup -c",
+    "test": "jest --clearCache && jest",
+    "clear-jest": "jest --clearCache"
   },
   "author": "Andrew Buchan",
   "license": "ISC",
