@@ -1,0 +1,15 @@
+35 error Error: Command failed with exit code 1: npm install --package-lock-only --ignore-scripts
+35 error npm ERR! code E404
+35 error npm ERR! 404 Not Found - GET https://registry.npmjs.org/walrii - Not found
+35 error npm ERR! 404
+35 error npm ERR! 404  'walrii@^0.0.0' is not in this registry.
+35 error npm ERR! 404
+35 error npm ERR! 404 Note that you can also install from a
+35 error npm ERR! 404 tarball, folder, http url, or git url.
+35 error
+35 error npm ERR! A complete log of this run can be found in: /home/andrew/.npm/_logs/2023-07-21T19_36_19_229Z-debug-0.log
+35 error     at makeError (/code/walrii/node_modules/execa/lib/error.js:59:11)
+35 error     at handlePromise (/code/walrii/node_modules/execa/index.js:114:26)
+35 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+35 error     at async VersionCommand.updatePackageVersions (/code/walrii/node_modules/lerna/dist/index.js:8300:13)
+35 error     at async Promise.all (index 0)

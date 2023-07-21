@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-walrii",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Babel plugin for walrii",
   "main": "lib/index.js",
   "scripts": {
