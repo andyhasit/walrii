@@ -2,6 +2,7 @@
   "name": "click-counter",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "main": "index.js",
   "devDependencies": {
     "@types/node": "^20.4.2",
