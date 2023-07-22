@@ -1,20 +1,18 @@
 {
   "name": "click-counter",
   "version": "1.0.0",
-  "description": "",
+  "description": "A demo of walrii",
   "private": true,
   "main": "index.js",
   "devDependencies": {
     "babel-loader": "^9.1.3",
-    "typescript": "^5.1.6",
     "walrii": "^0.0.2",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
   },
   "scripts": {
-    "build-prod": "webpack -p && cd dist && tar -zcvf main.js.gz main.js && ls -lh",
-    "build-dev": "webpack",
-    "serve": "webpack serve"
+    "start": "webpack serve"
   },
-  "author": "",
+  "author": "Andrew Buchan",
   "license": "ISC"
 }
