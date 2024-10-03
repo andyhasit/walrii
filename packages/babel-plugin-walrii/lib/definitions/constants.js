@@ -28,6 +28,9 @@ const lookupCallbackArgs = 'c, p'
 const propsCallbackArgs = 'c, p'
 const eventCallbackArgs = 'w, e'
 
+const componentRefVariable = 'c'; // The variable name by which the component will be known.
+
+
 /**
  * The name of the arg representing the component in the buildComponent method.
  */
@@ -47,6 +50,7 @@ FrameworkError.prototype = new Error();
 module.exports = {
   EOL,
   callableWatchArgs,
+  componentRefVariable,
   FrameworkError,
   eventCallbackArgs,
   walriiDefs, 

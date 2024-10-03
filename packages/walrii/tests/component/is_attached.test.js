@@ -2,7 +2,7 @@ import {c, createComponent, load, Component} from '../utils'
 
 
 class TestComponent extends Component {
-  __html__ = `
+  __html__ = html`
     <div :el="root">
     </div>
   `
